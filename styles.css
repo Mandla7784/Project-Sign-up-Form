@@ -66,9 +66,25 @@ section{
     display: flex;
     height: 100vh;
     width: 100%;
-    
+
 }
 .right-side{
     width: 50%;
     padding: 40px;
+}
+
+.container > form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    height: 100%;
+    background-color: black;
+    padding: 20px;
+}
+
+form > div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
 }
