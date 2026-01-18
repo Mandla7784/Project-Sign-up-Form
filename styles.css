@@ -58,6 +58,10 @@ input:focus {
     border: 2px solid #596D48;
     box-shadow: 0 0 5px rgba(89, 109, 72, 0.3);
 }
+input:invalid {
+    border: 2px solid #e74c3c;
+    box-shadow: 0 0 5px rgba(231, 76, 60, 0.3);
+}
 .left-side{
     background-image: url("./assets/tobias-reich-Y6gvKZNdKUw-unsplash.jpg");
     background-size: cover;
