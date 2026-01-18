@@ -53,6 +53,11 @@ input[type="text"], input[type="email"]   , input[type="password"],input[type="t
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+input:focus {
+    outline: none;
+    border: 2px solid #596D48;
+    box-shadow: 0 0 5px rgba(89, 109, 72, 0.3);
+}
 .left-side{
     background-image: url("./assets/tobias-reich-Y6gvKZNdKUw-unsplash.jpg");
     background-size: cover;
@@ -79,7 +84,7 @@ section{
     gap: 30px;
     justify-content: center;
     height: 100%;
-    background-color: black;
+    /* background-color: black; */
     padding: 20px;
 }
 
@@ -87,4 +92,8 @@ form > div {
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
+}
+.account{
+    grid-column: span 2;
+   
 }
