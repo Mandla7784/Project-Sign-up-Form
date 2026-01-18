@@ -97,3 +97,14 @@ form > div {
     grid-column: span 2;
    
 }
+.left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left-side img{
+    text-align: center  ;
+    
+
+}
