@@ -4,19 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    This is not a real online service! you know you need something like this in your life to help you realize
-    your deepest dreams.
-    Sign up now to get started.
-    You know you want to.
-
-
-    <h2>Lets do this!</h2>
-    <label for="name">FIRST NAME</label>
-    <input type="text" id="name" name="name" placeholder="First Name"><br><br>
-    <label for="email">EMAIL ADDRESS</label>
-    <input type="email" id="email" name="email" placeholder="Email Address
-    <label>    
+<section class="main">
+    <div class="left-side">
+    
+             <img width="100px" height="100px" src="./assets/tobias-reich-Y6gvKZNdKUw-unsplash.jpg" alt="">
+    </div>
+    
+    
+        <div class="righ-side">
+            This is not a real online service! you know you need something like this in your life to help you realize
+            your deepest dreams.
+            Sign up now to get started.
+            You know you want to.
+    
+            <div class="container">
+    
+                <h2>Lets do this!</h2>
+                <form action="" class="signup">
+                    <label for="name">FIRST NAME</label>
+                    <input type="text" id="name" name="name" placeholder="First Name">
+                    <label for="name">LAST NAME</label>
+                    <input type="text" id="name" name="name" placeholder="Last Name">
+                    <label for="name">PHONE NUMBER</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                    <label for="email">EMAIL ADDRESS</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address>
+                    <label for="name">PASSWORD</label>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <label for="name">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password"><br><br>
+                </form>
+    
+            </div>
+            <button class="button">Create Account</button>
+            <p>Already have an account?</p><a href="">Login</a>
+        </div>
+</section>
 </body>
 </html>

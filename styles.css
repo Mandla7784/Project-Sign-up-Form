@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+h1, h2, h3{
+    margin-bottom: 15px;
+    color: #444;
+}
+p{
+    margin-bottom: 10px;
+}
+a{
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff; 
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#596D48;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.button:hover{
+    background-color: #455635;
+}
+input[type="text"], input[type="email"]   , input[type="password"],input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.left-side{
+    background-image: url("./assets/tobias-reich-Y6gvKZNdKUw-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 50%;
+
+}
+
+section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    
+}
+.right-side{
+    width: 50%;
+    padding: 40px;
+}
