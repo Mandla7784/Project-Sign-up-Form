@@ -103,7 +103,28 @@ form > div {
 }
 .account{
     grid-column: span 2;
-   
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: fit-content;
+    margin-left: 2em;
+}
+.account .button {
+    width: fit-content;
+    padding: 12px 30px;
+}
+.account p {
+    margin: 0;
+    font-size: 14px;
+}
+.account a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 700;
+}
+.account a:hover {
+    text-decoration: underline;
 }
 .left-side {
     display: flex;
@@ -115,4 +136,11 @@ form > div {
     text-align: center  ;
     
 
+}
+
+.text-header{
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
 }
